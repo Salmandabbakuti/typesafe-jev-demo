@@ -19,7 +19,7 @@ To run:
 > Copy `.env.example` to `.env` and add your Typesafe API key.
 
 ```bash
-bun run index.ts
+bun run src/index.ts
 ```
 
 ### Or with Node.js
@@ -27,7 +27,7 @@ bun run index.ts
 ```bash
 npm install
 
-npx tsx --env-file=.env index.ts
+npx tsx --env-file=.env src/index.ts
 ```
 
 ### Example output:
